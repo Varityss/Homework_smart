@@ -1,15 +1,15 @@
-﻿using System.Globalization;
+using System.Globalization;
 
 class Program
 {
     static void Main()
     {
         DateTime now = DateTime.Now;
-        double number = 123434.3;
+        double number = 123456.78;
 
-        string[] cultures = { "ru-RU", "en-US", "de-DE" };
+        string[] cultures ={ "ru-RU", "en-US", "de-DE" };
 
-        foreach (var cultureName in cultures)
+        foreach (string cultureName in cultures)
         {
             CultureInfo culture = new CultureInfo(cultureName);
 
