@@ -1,0 +1,11 @@
+﻿Console.WriteLine($"sbyte   \nмин.значение {sbyte.MinValue}     \nмакc.значение {sbyte.MaxValue}");
+Console.WriteLine($"byte    \nмин.значение {byte.MinValue}      \nмакc.значение {byte.MaxValue}");
+Console.WriteLine($"short   \nмин.значение {short.MinValue}     \nмакc.значение {short.MaxValue}");
+Console.WriteLine($"ushort  \nмин.значение {ushort.MinValue}    \nмакc.значение {ushort.MaxValue}");
+Console.WriteLine($"int     \nмин.значение {int.MinValue}       \nмакc.значение {int.MaxValue}");
+Console.WriteLine($"uint    \nмин.значение {uint.MinValue}      \nмакc.значение {uint.MaxValue}");
+Console.WriteLine($"long    \nмин.значение {long.MinValue}      \nмакc.значение {long.MaxValue}");
+Console.WriteLine($"ulong   \n мин.значение {ulong.MinValue}    \nмакc.значение {ulong.MaxValue}");
+Console.WriteLine($"float   \nмин.значение {float.MinValue}     \nмакc.значение {float.MaxValue}");
+Console.WriteLine($"double  \nмин.значение {double.MinValue}    \nмакc.значение {double.MaxValue}");
+Console.WriteLine($"uint    \nмин.значение {decimal.MinValue}   \nмакc.значение {decimal.MaxValue}");
