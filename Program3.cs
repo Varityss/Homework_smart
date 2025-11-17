@@ -1,18 +1,7 @@
-﻿class Program
-{
-    static void User(string name, int age)
-    {
-        Console.WriteLine($"Hello {name}, you look good for {age}.");
-    }
+Console.WriteLine("Введите ваше имя!");
+string name=Console.ReadLine();
 
-    static void Main()
-    {
-        Console.Write("Введите имя: ");
-        string name = Console.ReadLine();
+Console.WriteLine("Введите ваш возраст!");
+string age=Console.ReadLine();
 
-        Console.Write("Введите возраст: ");
-        int age = int.Parse(Console.ReadLine());
-
-        User(name, age);
-    }
-}
+Console.WriteLine($"Hello {name}, you look good for {age}.");
