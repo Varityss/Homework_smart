@@ -8,4 +8,5 @@ Console.WriteLine($"long    \nмин.значение {long.MinValue}      \nм�
 Console.WriteLine($"ulong   \n мин.значение {ulong.MinValue}    \nмакc.значение {ulong.MaxValue}");
 Console.WriteLine($"float   \nмин.значение {float.MinValue}     \nмакc.значение {float.MaxValue}");
 Console.WriteLine($"double  \nмин.значение {double.MinValue}    \nмакc.значение {double.MaxValue}");
-Console.WriteLine($"uint    \nмин.значение {decimal.MinValue}   \nмакc.значение {decimal.MaxValue}");
+
+Console.WriteLine($"decimal    \nмин.значение {decimal.MinValue}   \nмакc.значение {decimal.MaxValue}");
